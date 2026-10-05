@@ -7,7 +7,7 @@ import java.time.LocalDate;
 
 /**
  * Week 1 starter controller.
- * Already provided:
+ * Already provided: .
  *   GET /hello   -> a simple greeting
  *   GET /status  -> a simple status message
  * TODO (Lab Activity 3):
