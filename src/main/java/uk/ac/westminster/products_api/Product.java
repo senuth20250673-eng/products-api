@@ -21,4 +21,17 @@ public class Product {
     public double getPrice() { return price; }
 
     // Note: a missing or misspelled getter silently removes that field from the JSON (no error).
+
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 }
