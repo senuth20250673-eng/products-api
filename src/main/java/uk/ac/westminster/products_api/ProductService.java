@@ -22,6 +22,12 @@ public class ProductService {
                 .findFirst();
     }
 
+    public List<Product> findByName(String name) {
+        return products.stream()
+                .filter(p -> p.getName().contains(name))
+                .toList();
+    }
+
     public Product addProduct(Product product) {
         product.setId(nextId++);   // use the value, then add one
         products.add(product);
